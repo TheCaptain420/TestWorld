@@ -9,10 +9,10 @@ public class FirstWindow extends JFrame {
         setSize(600,400);
 
         //gør at man ikke kan lukke viduet..
-        //setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
+        setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
 
         //Gør at man kan lukke viduet
-        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+       // setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
         //Laver et "panel", hvor man kan have eks. knapper og lign.
         JPanel p = new JPanel();

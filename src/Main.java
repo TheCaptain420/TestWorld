@@ -13,9 +13,17 @@ public class Main {
         */
 
         //My First Virus
+        /*
         FirstWindow fw=new FirstWindow();
         fw.setVisible(true);
+        */
 
+        //TitleGenerator titel = new TitleGenerator();
+        //titel.titelmangde(2);
+
+        Oddnumbers oddnumbers = new Oddnumbers(1,100);
+        //oddnumbers.printOdds();
+        oddnumbers.printFlag();
 
     }
 }
