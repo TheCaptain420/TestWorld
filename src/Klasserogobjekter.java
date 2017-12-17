@@ -1,5 +1,6 @@
 public class Klasserogobjekter {
     public static void main(String[] args) {
+        //type      //navn  //ny    Type
         LægToSammen ToTal = new LægToSammen();
         System.out.println(ToTal.LiggerToSammen(10,25));
     }
